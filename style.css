@@ -1,0 +1,67 @@
+/* color of navbar background */
+.navbar {
+    overflow: hidden;
+}
+
+/* color of link words */
+.navbar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  color: green;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  color: green;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #F8FFEC;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+button {
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+
+a {
+    /* getting rid of underline in button link */ 
+    text-decoration: none;
+}
+
+img {
+    max-width: 45%;
+    max-height: 45%;
+    float: left;
+}
+
+.text {
+    float: right;
+    padding-top: 5%;
+}
+

@@ -1,0 +1,152 @@
+/* color of navbar background */
+.navbar {
+    overflow: hidden;
+}
+
+/* color of link words */
+.navbar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  color: #F99973;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  color: green;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10%;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    padding: 5%;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 25x;
+    color: #3365D3;
+}
+
+h5 {
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    padding-top: 5%;
+    font-size: 36px;
+    color: #3365D3;
+}
+
+body {
+    background-color: #F9E5C7;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+button {
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    margin: auto;
+    cursor: pointer;
+    background-color: #3365D3;
+}
+
+a {
+    /* getting rid of underline in button link */ 
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: white;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+    float: left;
+    border-radius: 30px;
+    border: 10px solid green;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.text {
+    padding-top: 3%;
+}
+
+.resume {
+    font-size: 40px;
+    text-align: center;
+    color: #3365D3;
+    font-weight: bold;
+}
+
+.container {
+    margin: 100px auto;
+    width: 75%;
+    padding-bottom: 5%;
+    align-items: center;
+    background-color: #C0C7FB;
+    border-radius: 15%;
+    
+}
+
+ol {
+    padding-left: 10%;
+    padding-top: 5%;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
